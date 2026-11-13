@@ -1,0 +1,16 @@
+{
+  "name": "flowlite",
+  "version": "1.0.0",
+  "description": "FlowLite - a mini n8n style visual automation platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^10.5.0"
+  }
+}
